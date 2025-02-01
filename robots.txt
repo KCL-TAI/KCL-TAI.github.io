@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://KCL-SML.github.io/al-folio/sitemap.xml
+User-agent: * Disallow: Sitemap: https://KCL-SML.github.io/sitemap.xml
