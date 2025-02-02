@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Members
+permalink: /members/
 description: A growing collection of your cool projects.
 nav: true
-nav_order: 3
-display_categories: [Dental Research, Statistical Signal Processing]
+nav_order: 2
+display_categories: [Faculty, Postdoctoral, PhD Student]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
+<!-- pages/members.md -->
+<div class="members">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
