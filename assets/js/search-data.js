@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Our lab specializes in leveraging statistical machine learning and Bayesian statistics across diverse fields, with a strong focus on clinical and environmental AI applications. We are dedicated to pioneering innovative machine learning techniques and creating impactful solutions to address critical challenges in dental and oral health, biodiversity, and computational statistics.",
+          description: "Our lab specialises in leveraging statistical machine learning and Bayesian statistics across diverse fields, with a strong focus on clinical and environmental AI applications. We are dedicated to pioneering innovative machine learning techniques and creating impactful solutions to address critical challenges in dentistry and oral health, biodiversity, and computational statistics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -32,14 +32,14 @@ ninja.data = [{
           },
         },{id: "nav-openings",
           title: "Openings",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/openings/";
           },
         },{id: "nav-contact",
           title: "Contact",
-          description: "Contact of the KCL-SML group.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/contact";
@@ -396,19 +396,41 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-we-started-the-humbug-ii-project-in-collaboration-with-the-oxford-team-led-by-kathy-willis-and-steve-roberts-the-project-is-sponsored-by-the-natural-environment-research-council-in-its-innovation-in-environmental-monitoring-programme",
+          title: 'We started the HumBug II project in collaboration with the Oxford team led...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-zhi-qin-tan-presented-bayesian-detector-combination-for-object-detection-with-crowdsourced-annotations-at-eccv-2024-in-milan-italy-as-his-first-paper-in-phd-the-work-is-in-collaboration-with-olga-isupova-gustavo-carneiro-and-xiatian-zhu",
+          title: 'Zhi Qin Tan presented Bayesian Detector Combination for Object Detection with Crowdsourced Annotations...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-dr-xiongjie-chen-zhi-qin-tan-and-john-joseph-brady-completed-their-transfer-from-the-university-of-surrey-to-king-s-college-london-as-inaugural-members-of-the-statistical-machine-learning-lab-based-in-the-centre-for-oral-clinical-amp-amp-translational-sciences",
+          title: 'Dr Xiongjie Chen, Zhi Qin Tan, and John-Joseph Brady completed their transfer from...',
           description: "",
-          section: "News",},{id: "projects-ai-assisted-dental-disease-detection-with-radiography",
-          title: 'AI-assisted dental disease detection with radiography',
+          section: "News",},{id: "news-owen-addison-and-yunpeng-li-published-an-opinion-piece-at-bdj-in-practice-to-discuss-our-nihr-sponsored-project-and-becertain-ai",
+          title: 'Owen Addison and Yunpeng Li published an opinion piece at BDJ in Practice...',
+          description: "",
+          section: "News",},{id: "news-yunpeng-li-introduced-our-ai-assisted-radiograph-based-dental-disease-detection-tool-undergoing-internal-testing-via-becertain-ai-at-the-royal-college-of-surgeons-of-england-workshop-on-ai-and-digital-innovation-in-dentistry-and-oral-health",
+          title: 'Yunpeng Li introduced our AI-assisted radiograph-based dental disease detection tool, undergoing internal testing...',
+          description: "",
+          section: "News",},{id: "news-yunpeng-li-gave-a-talk-on-normalizing-flow-based-differentiable-particle-filters-at-the-kcl-statistics-seminar",
+          title: 'Yunpeng Li gave a talk on Normalizing Flow-based Differentiable Particle Filters at the...',
+          description: "",
+          section: "News",},{id: "news-yunpeng-li-was-selected-into-the-royal-academy-of-engineering-explore-4-0-cohort-to-explore-new-ecosystems-for-our-work-on-ai-assisted-dental-disease-detection",
+          title: 'Yunpeng Li was selected into the Royal Academy of Engineering Explore 4.0 cohort...',
+          description: "",
+          section: "News",},{id: "news-we-are-recruiting-a-fully-funded-phd-position-is-available-in-the-broad-areas-of-multimodal-ai-and-digital-healthcare",
+          title: 'We are recruiting! A fully-funded PhD position is available in the broad areas...',
+          description: "",
+          section: "News",},{id: "news-our-paper-normalizing-flow-based-differentiable-particle-filters-has-been-accepted-at-ieee-transactions-on-signal-processing-congratulations-xiongjie",
+          title: 'Our paper Normalizing Flow-based Differentiable Particle Filters has been accepted at IEEE Transactions...',
+          description: "",
+          section: "News",},{id: "news-we-welcome-phd-applicants-to-apply-for-the-epsrc-centre-for-doctoral-training-in-data-driven-health-drive-health-programme-for-our-project-multimodal-dental-ai-with-uncertainty-quantification-the-application-deadline-is-30th-january-2025-see-openings-for-available-phd-positions-in-the-group",
+          title: 'We welcome PhD applicants to apply for the EPSRC Centre for Doctoral Training...',
+          description: "",
+          section: "News",},{id: "news-yunpeng-li-presented-our-work-on-learning-with-uncertainty-for-trustworthy-ai-with-radiography-in-the-2025-bellairs-workshop-on-machine-learning-and-statistical-signal-processing-for-data-on-graphs-in-the-bellairs-research-institute-in-holetown-barbados",
+          title: 'Yunpeng Li presented our work on “Learning with Uncertainty for Trustworthy AI with...',
+          description: "",
+          section: "News",},{id: "projects-development-and-pre-market-evaluation-of-ai-assisted-dental-disease-detection-with-radiography",
+          title: 'Development and Pre-market Evaluation of AI-assisted Dental Disease Detection with Radiography',
           description: "Funded by NIHR",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
