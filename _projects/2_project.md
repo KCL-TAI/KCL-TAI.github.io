@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Differentiable particle filtering
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: Statistical Signal Processing
-giscus_comments: true
+title: Zhi Qin's project
+description: a short description
+img: assets/img/7.jpg
+redirect: https://unsplash.com
+importance: 3
+category: Dental Research
 ---
 
 Every project has a beautiful feature showcase page.

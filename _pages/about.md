@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -26,8 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-[Centre for Oral, Clinical & Translational Sciences](https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences)
+Welcome to the King's College London Statistical Machine Learning (KCL SML) Group! We are part of the [Centre for Oral, Clinical & Translational Sciences](https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences) in the [Faculty of Dentistry, Oral & Craniofacial Sciences](https://www.kcl.ac.uk/dentistry). Together we enjoy applying statistical machine learning and Bayesian statistics to a wide range of domains including clinical and environmental AI applications.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
