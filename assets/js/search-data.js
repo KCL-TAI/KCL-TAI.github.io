@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "Our lab specializes in leveraging statistical machine learning and Bayesian statistics across diverse fields, with a strong focus on clinical and environmental AI applications. We are dedicated to pioneering innovative machine learning techniques and creating impactful solutions to address critical challenges in dental and oral health, biodiversity, and computational statistics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -412,14 +412,14 @@ ninja.data = [{
           description: "Funded by NIHR",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-differentiable-particle-filtering",
-          title: 'Differentiable particle filtering',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-zhi-qin-39-s-project",
+          title: 'Zhi Qin&amp;#39;s project',
+          description: "a short description",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-john-jo-39-s-project",
+          title: 'John-Jo&amp;#39;s project',
+          description: "a short description",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
