@@ -3,8 +3,8 @@ layout: page
 title: Zhi Qin's project
 description: a short description
 img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+redirect: 
+importance: 2
 category: Dental Research
 ---
 

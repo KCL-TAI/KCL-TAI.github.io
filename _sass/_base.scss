@@ -176,6 +176,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-title {
+    font-size: 1.25rem;
     color: var(--global-text-color);
   }
 
@@ -230,7 +231,7 @@ ul.task-list input[type="checkbox"] {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
 
   a {
     color: inherit;
@@ -579,6 +580,7 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  font-weight: bold;
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -666,7 +668,6 @@ footer.sticky-bottom {
       }
     }
   }
-
   .card {
     img {
       width: 100%;
@@ -704,6 +705,11 @@ footer.sticky-bottom {
         color: var(--global-theme-color);
       }
     }
+  }
+
+  .card-title {
+    font-size: 2rem;
+    color: var(--global-text-color);
   }
 
   .card {

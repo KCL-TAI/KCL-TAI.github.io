@@ -3,7 +3,7 @@ layout: page
 title: John-Jo's project
 description: a short description
 img: assets/img/3.jpg
-importance: 2
+importance: 3
 category: Statistical Signal Processing
 giscus_comments: true
 ---

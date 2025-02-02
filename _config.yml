@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: KCL
+first_name: KCL SML Group
 middle_name:
-last_name: SML Group
+last_name:
 contact_note: >
  Contact us by sending an email to yunpeng . li AT kcl . ac . uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

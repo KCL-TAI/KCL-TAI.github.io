@@ -4,14 +4,15 @@ title: Contact
 permalink: /contact
 nav: true
 nav_order: 6
-description: Contact of the KCL-SML group.
+description: 
 ---
 
-[<i class="fas fa-envelope"></i> guido.salvaneschi@unisg.ch](mailto:guido.salvaneschi@unisg.ch)
+[<i class="fas fa-envelope"></i> yunpeng.li@kcl.ac.uk](mailto:yunpeng.li@kcl.ac.uk)
 
-School of Computer Science\\
-c/o Prof. Dr. Guido Salvaneschi\\
-Office 64-114\\
-Torstrasse 25\\
-9000 St. Gallen\\
-Switzerland
+Centre for Oral, Clinical & Translational Sciences\\
+King’s College London\\
+Floor 17 Guys Tower\\
+Great Maze Pond\\
+London SE1 9RT\\
+United Kingdom
+

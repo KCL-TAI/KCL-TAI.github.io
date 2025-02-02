@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-09-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+We started the [HumBug II project](https://humbug.ox.ac.uk/the-project#tab-5003961) in collaboration with the [Oxford team](https://humbug.ox.ac.uk/the-team#tab-4994731) led by [Kathy Willis](https://www.biology.ox.ac.uk/people/katherine-willis) and [Steve Roberts](https://www.robots.ox.ac.uk/~sjrob/). The project is sponsored by the [Natural Environment Research Council](https://www.ukri.org/councils/nerc/) in its [Innovation in Environmental Monitoring programme](https://www.ukri.org/news/uk-invests-in-monitoring-of-natural-environment/).

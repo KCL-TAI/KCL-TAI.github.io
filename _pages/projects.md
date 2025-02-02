@@ -2,8 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Our lab specializes in leveraging statistical machine learning and Bayesian statistics across diverse fields, with a strong focus on clinical and environmental AI applications. 
-  We are dedicated to pioneering innovative machine learning techniques and creating impactful solutions to address critical challenges in dental and oral health, biodiversity, and computational statistics. 
+description: Our lab specialises in leveraging statistical machine learning and Bayesian statistics across diverse fields, with a strong focus on clinical and environmental AI applications. 
+  We are dedicated to pioneering innovative machine learning techniques and creating impactful solutions to address critical challenges in dentistry and oral health, biodiversity, and computational statistics. 
 nav: true
 nav_order: 3
 display_categories: [Dental Research, Statistical Signal Processing]

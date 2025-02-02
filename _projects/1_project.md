@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI-assisted dental disease detection with radiography
+title: Development and Pre-market Evaluation of AI-assisted Dental Disease Detection with Radiography
 description: Funded by NIHR
 img: assets/img/BeCertain.png
 importance: 1
@@ -8,11 +8,8 @@ category: Dental Research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[//]: # (### **Abstract**)
+##### In this project, we aim to develop reliable AI tools for detecting abnormalities in dental radiographs, with an ultimate goal to improve diagnostic accuracy and reduce misdiagnosis risks and impacts by assisting clinical decision-making with trustworthy AI models.
 
     ---
     layout: page
