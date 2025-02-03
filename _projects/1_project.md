@@ -5,68 +5,65 @@ description: Funded by NIHR
 img: assets/img/BeCertain.png
 importance: 1
 category: Dental Research
-related_publications: true
+related_publications: false
 ---
 
-[//]: # (### **Abstract**)
+<div class="container" style="display: flex; justify-content: space-between; width: 100%;">
+    <div style="font-size: 20px;">Start Date: June 2023</div>
+    <div style="font-size: 20px;">End Date: November 2025</div>
+</div>
+
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
+
+<table border="1" cellspacing="0" cellpadding="8" style="font-size: 18px; border-collapse: collapse; width: 100%;">
+  <tr style="background-color: #f2f2f2;">
+    <th style="text-align: left; padding: 12px; font-weight: bold;">Role</th>
+    <th style="text-align: left; padding: 12px; font-weight: bold;">Name/Details</th>
+  </tr>
+  <tr>
+    <td style="padding: 10px; font-weight: bold;">Chief Investigator(s)</td>
+    <td style="padding: 10px;"> <a href="https://yunpengli.ac" target="_blank">Dr Yunpeng Li</a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; font-weight: bold;">Joint Lead Applicant</td>
+    <td style="padding: 10px;"> <a href="https://www.kcl.ac.uk/people/owen-addison" target="_blank">Professor Owen Addison</a></td>
+  </tr>
+  <tr>
+    <td rowspan="6" style="padding: 10px; font-weight: bold;">Co-investigators</td>
+    <td style="padding: 10px;"><a href="https://www.surrey.ac.uk/people/matthew-glover" target="_blank">Dr Matthew Glover </a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"> <a href="https://www.dentalhealth.org/dr-nigel-carter" target="_blank">Dr Nigel Carter </a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"> <a href="https://www.surrey.ac.uk/people/samaneh-kouchaki" target="_blank">Dr Samaneh Kouchaki</a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"> <a href="https://uk.linkedin.com/in/mark-halling-brown-92bbb611" target="_blank">Professor Mark Halling-Brown</a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"> <a href="https://www.surrey.ac.uk/people/philip-evans" target="_blank">Professor Philip Evans</a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;"> <a href="https://www.surrey.ac.uk/people/simon-skene" target="_blank">Professor Simon Skene </a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px; font-weight: bold;">Postdoctoral researcher</td>
+    <td style="padding: 10px;"> <a href="https://xiongjiechen.com" target="_blank">Dr Xiongjie Chen</a></td>
+  </tr>
+</table>
+
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
+
 ##### In this project, we aim to develop reliable AI tools for detecting abnormalities in dental radiographs, with an ultimate goal to improve diagnostic accuracy and reduce misdiagnosis risks and impacts by assisting clinical decision-making with trustworthy AI models.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## **Research background**
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+##### The state of our teeth affects our overall health and the NHS spends over **£3.6 billion** annually to provide dental care. Dental radiography (X-ray imaging) is an essential tool for diagnosing dental diseases such as caries (tooth decay) and bone loss (gum disease). **46 million** dental X-rays are taken in the UK each year. However, error rates in interpreting the X-rays by dentists are over 50%, due to subtlety of abnormalities, varying image qualities and viewing conditions, dentists expertise and fatigue factors. Identifying early disease is particularly error-prone but is critical to allowing us to keep our own teeth into later life. An automated solution to assist dentists to identify abnormalities on X-rays, improving detection accuracy and reducing unnecessary economic and human costs is therefore urgently needed.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+#### We have been developed a Dental Radiograph Collection, Annotation, and Prediction System (DR CAPS) to provide a one-stop solution to i) facilitate the collection and annotation of dental radiographs and ii) use an embedded Artificial Intelligence (AI) model to predict disease on X-rays assist diagnosis. 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+#### This project builds on our initial proof-of-concept research and aims to i) advance and evaluate DR CAPS, and ii) demonstrate its clinical acceptability for eventual NHS use. 
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

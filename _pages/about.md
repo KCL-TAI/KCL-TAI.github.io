@@ -14,13 +14,13 @@ profile:
     <p>London SE1 9RT</p>
 
 news: true
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit:  10 # leave blank to include all the news in the `_news` folder
+  limit:  5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -30,3 +30,29 @@ latest_posts:
 Welcome to the King's College London Statistical Machine Learning (KCL SML) Group! We are part of the [Centre for Oral, Clinical & Translational Sciences](https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences) in the [Faculty of Dentistry, Oral & Craniofacial Sciences](https://www.kcl.ac.uk/dentistry). Together we enjoy applying statistical machine learning and Bayesian statistics to a wide range of domains including clinical and environmental AI applications.
 
 [Talk to us](mailto:yunpeng.li@kcl.ac.uk) or [join our group](https://kcl-sml.github.io/openings/) if you are interested in these topics or our work.
+
+
+<br/><br/><br/><br/><br/><br/>
+
+[//]: # (## Our partners)
+
+[//]: # ()
+[//]: # (<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>)
+
+[//]: # ()
+[//]: # (<div class="clearfix" style="width: 100%; clear: both;">)
+
+[//]: # (    <a href="https://www.gbhi.org" target="_blank"><img style="width: 45%; float: left; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/KCL-logo.png" alt="logo for Global Brain Health Institute"></a>)
+
+[//]: # (    <a href="https://www.allftd.org" target="_blank"><img style="width: 45%; float: right; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/KCL-logo.png" alt="logo for the ARTFL-LEFFTDS Longitudinal Frontotemporal Lobar Degeneration &#40;ALLFTD&#41; research study"></a>)
+
+[//]: # (</div>)
+
+[//]: # (<div style="width: 100%; clear: both; margin-bottom: 15px">)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (<a rel="me" href="https://neuromatch.social/@winstonchiong"> - </a>)
+
+---
