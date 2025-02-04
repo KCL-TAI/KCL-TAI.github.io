@@ -34,6 +34,28 @@ Welcome to the King's College London Statistical Machine Learning (KCL SML) Grou
 
 <br/><br/><br/><br/><br/><br/>
 
+<h4>
+    <a>Partners</a>
+</h4>
+<div class="clearfix" style="width: 100%; padding-bottom: 25px;"></div>
+
+<div class="clearfix" style="width: 100%; clear: both; display: flex; justify-content: center; gap: 50px;">
+  <a href="https://www.surrey.ac.uk/" target="_blank">
+    <img style="height: 70px; width: auto; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/surrey.png" alt="UoS website">
+  </a>
+  <a href="https://www.royalsurrey.nhs.uk/" target="_blank">
+    <img style="height: 70px; width: auto; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/nhs-surrey.png" alt="NHS Royal Surrey website">
+  </a>
+  <a href="https://www.guysandstthomas.nhs.uk/" target="_blank">
+    <img style="height: 70px; width: auto; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/nhs-guys.png" alt="NHS GSTT website">
+  </a>
+  <a href="https://www.dentalhealth.org/" target="_blank">
+    <img style="height: 70px; width: auto; padding-bottom: 25px;" valign="center" src="{{ site.baseurl }}/assets/img/oralhealthfoundation.png" alt="Oral Healthy Foundation website">
+  </a>
+</div>
+
+<div style="width: 100%; clear: both; margin-bottom: 15px;"></div>
+
 [//]: # (## Our partners)
 
 [//]: # ()
