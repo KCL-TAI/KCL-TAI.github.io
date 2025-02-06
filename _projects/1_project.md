@@ -4,6 +4,7 @@ title: Development and Pre-market Evaluation of AI-assisted Dental Disease Detec
 description: Funded by NIHR
 img: assets/img/BeCertain.png
 importance: 1
+redirect: AI4Dentistry.github.io/AI4Dentistry
 category: Dental Research
 related_publications: false
 ---
