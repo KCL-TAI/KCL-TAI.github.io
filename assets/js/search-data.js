@@ -396,7 +396,27 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-we-started-the-humbug-ii-project-in-collaboration-with-the-oxford-team-led-by-kathy-willis-and-steve-roberts-the-project-is-sponsored-by-the-natural-environment-research-council-in-its-innovation-in-environmental-monitoring-programme",
+    },{id: "members-john-joseph-brady",
+          title: 'John-Joseph Brady',
+          description: "PhD student in statistical machine learning (2023-).",
+          section: "Members",handler: () => {
+              window.location.href = "/members/johnjobrady/";
+            },},{id: "members-dr-xiongjie-chen",
+          title: 'Dr. Xiongjie Chen',
+          description: "Research Fellow in Machine Learning in Medical Imaging (2023-). PhD (2019-2023).",
+          section: "Members",handler: () => {
+              window.location.href = "/members/xiongjiechen/";
+            },},{id: "members-dr-yunpeng-li",
+          title: 'Dr. Yunpeng Li',
+          description: "Reader in AI &amp; Digital Oral Health",
+          section: "Members",handler: () => {
+              window.location.href = "/members/yunpengli/";
+            },},{id: "members-zhi-qin-tan",
+          title: 'Zhi Qin Tan',
+          description: "PhD student in Dental and Health Science Research (2023-).",
+          section: "Members",handler: () => {
+              window.location.href = "/members/zhiqintan/";
+            },},{id: "news-we-started-the-humbug-ii-project-in-collaboration-with-the-oxford-team-led-by-kathy-willis-and-steve-roberts-the-project-is-sponsored-by-the-natural-environment-research-council-in-its-innovation-in-environmental-monitoring-programme",
           title: 'We started the HumBug II project in collaboration with the Oxford team led...',
           description: "",
           section: "News",},{id: "news-zhi-qin-tan-presented-bayesian-detector-combination-for-object-detection-with-crowdsourced-annotations-at-eccv-2024-in-milan-italy-as-his-first-paper-in-phd-the-work-is-in-collaboration-with-olga-isupova-gustavo-carneiro-and-xiatian-zhu",
@@ -417,7 +437,7 @@ ninja.data = [{
           section: "News",},{id: "news-yunpeng-li-was-selected-into-the-royal-academy-of-engineering-explore-4-0-cohort-to-explore-new-ecosystems-for-our-work-on-ai-assisted-dental-disease-detection",
           title: 'Yunpeng Li was selected into the Royal Academy of Engineering Explore 4.0 cohort...',
           description: "",
-          section: "News",},{id: "news-we-are-recruiting-a-fully-funded-phd-position-is-available-in-the-broad-areas-of-multimodal-ai-and-digital-healthcare",
+          section: "News",},{id: "news-we-are-recruiting-a-fully-funded-phd-position-is-available-in-the-broad-areas-of-multimodal-ai-and-digital-healthcare-see-openings-for-available-phd-positions-in-the-group",
           title: 'We are recruiting! A fully-funded PhD position is available in the broad areas...',
           description: "",
           section: "News",},{id: "news-our-paper-normalizing-flow-based-differentiable-particle-filters-has-been-accepted-at-ieee-transactions-on-signal-processing-congratulations-xiongjie",
@@ -429,71 +449,26 @@ ninja.data = [{
           section: "News",},{id: "news-yunpeng-li-presented-our-work-on-learning-with-uncertainty-for-trustworthy-ai-with-radiography-in-the-2025-bellairs-workshop-on-machine-learning-and-statistical-signal-processing-for-data-on-graphs-in-the-bellairs-research-institute-in-holetown-barbados",
           title: 'Yunpeng Li presented our work on “Learning with Uncertainty for Trustworthy AI with...',
           description: "",
-          section: "News",},{id: "projects-development-and-pre-market-evaluation-of-ai-assisted-dental-disease-detection-with-radiography",
-          title: 'Development and Pre-market Evaluation of AI-assisted Dental Disease Detection with Radiography',
-          description: "Funded by NIHR",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-zhi-qin-39-s-project",
-          title: 'Zhi Qin&amp;#39;s project',
-          description: "a short description",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-john-jo-39-s-project",
+          section: "News",},{id: "projects-john-jo-39-s-project",
           title: 'John-Jo&amp;#39;s project',
           description: "a short description",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/john_jo/";
+            },},{id: "projects-ai-assisted-dental-disease-detection-with-radiography",
+          title: 'AI-assisted Dental Disease Detection with Radiography',
+          description: "Funded by NIHR",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nihr_dental_xray/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/template/";
+            },},{id: "projects-zhi-qin-39-s-project",
+          title: 'Zhi Qin&amp;#39;s project',
+          description: "a short description",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-john-joseph-brady",
-          title: 'John-Joseph Brady',
-          description: "PhD student in statistical machine learning (2023-).",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/johnjobrady/";
-            },},{id: "projects-dr-xiongjie-chen",
-          title: 'Dr. Xiongjie Chen',
-          description: "Research Fellow in Machine Learning in Medical Imaging (2023-). PhD (2019-2023).",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/xiongjiechen/";
-            },},{id: "projects-dr-yunpeng-li",
-          title: 'Dr. Yunpeng Li',
-          description: "Reader in AI &amp; Digital Oral Health",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/yunpengli/";
-            },},{id: "projects-zhi-qin-tan",
-          title: 'Zhi Qin Tan',
-          description: "PhD student in Dental and Health Science Research (2023-).",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/zhiqintan/";
+              window.location.href = "/projects/zhi_qin/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
