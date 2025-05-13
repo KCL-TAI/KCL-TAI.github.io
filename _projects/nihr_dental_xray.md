@@ -18,8 +18,6 @@ related_publications: false
 * Detect early diseases.
 * Reduce unnecessary economic and human costs spent on dental X-ray diagnosis.
 
-<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
-
 <div class="row justify-content-center">
     <div class="col-sm-9 col-md-9 col-lg-9 mt-3 mt-md-0">
         {% include figure.liquid 
@@ -27,6 +25,8 @@ related_publications: false
             class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 ## **Background**
 
@@ -36,6 +36,8 @@ Therefore, there is an urgent need for automated tools to assist dentists in ide
 
 The project has been sponsored by the National Institute for Health and Care Research (NIHR).
 
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
+
 ## **Our model**
 
 We are developing a medical device, **Dx Annotator**, which aims to:
@@ -43,6 +45,8 @@ We are developing a medical device, **Dx Annotator**, which aims to:
 * Allow dentists to ultilise Artificial Intelligence (AI) model to predict disease on X-rays assist diagnosis. 
 
 Dentist's diagnostic performance, especially sensitivity, can be significantly improved with AI-suggested dental findings[^4] [^5] [^6].
+
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 #### **What dental diseases can our model detect?** 
 <div class="row justify-content-center">
@@ -79,6 +83,7 @@ If you are interested in our project and would like to see how our AI model work
 
 **Note:** The AI-suggested dental abnormalities from Dx Annotator are designed to supplement, not replace, the clinician's own assessment and professional judgment.
 
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 ## **Our data**
 Multiple rounds of data collection and annotation were performed to acquire sufficient training data for our AI model. The images, sourced from partner clinical sites, were carefully anonymized during annotation.
@@ -87,6 +92,17 @@ In particular, we have already collected:
 * 100K+ dental radiographs from different clinical sites.
 * 50K+ image-level annotations from 30+ dentists.
 
+Due to the high variety of dental structures, positioning/orientation errors, area biases when ordering a scan, and differing diagnostic expertise among annotators, each dental radiograph is reviewed by multiple annotators. To further enhance our model's performance, we also applied state-of-the-art algorithms designed to effectively process and reconcile crowdsourced annotations[^7].
+
+<div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-12 mt-3 mt-md-0">
+        {% include figure.liquid 
+            path="assets/img/crowdsource.png" 
+            class="img-fluid rounded" %}
+    </div>
+</div>
+
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 ## **Recent News** 
 
@@ -110,6 +126,7 @@ In particular, we have already collected:
   </div>
 </div>
 
+<div class="clearfix" style="width: 100%; padding-bottom: 25px"></div>
 
 ## **Our team**
 
@@ -178,3 +195,4 @@ In particular, we have already collected:
 [^4]: [The ADEPT study: a comparative study of dentists' ability to detect enamel-only proximal caries in bitewing radiographs with and without the use of AssistDent artificial intelligence software](https://pubmed.ncbi.nlm.nih.gov/34686815/)
 [^5]: [Artificial intelligence for caries detection: randomized trial](https://www.cochranelibrary.com/central/doi/10.1002/central/CN-02375033/full)
 [^6]: [Deep learning-based dental plaque detection on primary teeth: a comparison with clinical assessments](https://link.springer.com/article/10.1186/s12903-020-01114-6)
+[^7]: [Bayesian Detector Combination for Object Detection with Crowdsourced Annotations](Bayesian Detector Combination for Object Detection with Crowdsourced Annotations)
