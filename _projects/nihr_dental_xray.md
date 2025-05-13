@@ -195,4 +195,4 @@ Due to the high variety of dental structures, positioning/orientation errors, ar
 [^4]: [The ADEPT study: a comparative study of dentists' ability to detect enamel-only proximal caries in bitewing radiographs with and without the use of AssistDent artificial intelligence software](https://pubmed.ncbi.nlm.nih.gov/34686815/)
 [^5]: [Artificial intelligence for caries detection: randomized trial](https://www.cochranelibrary.com/central/doi/10.1002/central/CN-02375033/full)
 [^6]: [Deep learning-based dental plaque detection on primary teeth: a comparison with clinical assessments](https://link.springer.com/article/10.1186/s12903-020-01114-6)
-[^7]: [Bayesian Detector Combination for Object Detection with Crowdsourced Annotations](Bayesian Detector Combination for Object Detection with Crowdsourced Annotations)
+[^7]: [Bayesian Detector Combination for Object Detection with Crowdsourced Annotations](https://arxiv.org/abs/2407.07958)
