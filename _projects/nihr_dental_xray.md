@@ -187,7 +187,7 @@ Due to the high variety of dental structures, positioning/orientation errors, ar
 <br/>
 
 
-## References
+## **References**
 
 [^1]: [WHO's global oral health status report 2022: Actions, discussion and implementation](https://pubmed.ncbi.nlm.nih.gov/36680388/)
 [^2]: [Inequalities in oral health in England](https://assets.publishing.service.gov.uk/media/6051f994d3bf7f0453f7b9a9/Inequalities_in_oral_health_in_England.pdf)
