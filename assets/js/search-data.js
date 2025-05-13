@@ -456,7 +456,7 @@ ninja.data = [{
               window.location.href = "/projects/john_jo/";
             },},{id: "projects-ai-assisted-dental-disease-detection-with-radiography",
           title: 'AI-assisted Dental Disease Detection with Radiography',
-          description: "Funded by NIHR",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nihr_dental_xray/";
             },},{id: "projects-project-4",
