@@ -61,7 +61,7 @@ If you are interested in our project and would like to know more about how our A
 
 <div class="container mt-4">
   <div class="row mb-3">
-    <div class="col-sm-3 text-muted"><strong>Nov 4, 2024</strong></div>
+    <div class="col-sm-3 text-muted"><strong>Nov 04, 2024</strong></div>
     <div class="col-sm-9">We published an <a href="https://www.nature.com/articles/s41404-024-2926-0" target="_blank">opinion piece at BDJ in Practice</a> to discuss our <a href="https://fundingawards.nihr.ac.uk/award/NIHR204566" target="_blank">NIHR-sponsored project</a> and <a href="http://becertain.ai" target="_blank">becertain.ai</a> </div>
   </div>
 <div class="row mb-3">
