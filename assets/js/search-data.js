@@ -449,7 +449,12 @@ ninja.data = [{
           section: "News",},{id: "news-yunpeng-li-presented-our-work-on-learning-with-uncertainty-for-trustworthy-ai-with-radiography-in-the-2025-bellairs-workshop-on-machine-learning-and-statistical-signal-processing-for-data-on-graphs-in-the-bellairs-research-institute-in-holetown-barbados",
           title: 'Yunpeng Li presented our work on “Learning with Uncertainty for Trustworthy AI with...',
           description: "",
-          section: "News",},{id: "projects-john-jo-39-s-project",
+          section: "News",},{id: "projects-bayesian-detector-combination",
+          title: 'Bayesian Detector Combination',
+          description: "Object Detection with Noisy Crowdsourced (Multi-Rater) Annotations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bdc_eccv/";
+            },},{id: "projects-john-jo-39-s-project",
           title: 'John-Jo&amp;#39;s project',
           description: "a short description",
           section: "Projects",handler: () => {
@@ -464,11 +469,6 @@ ninja.data = [{
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/template/";
-            },},{id: "projects-zhi-qin-39-s-project",
-          title: 'Zhi Qin&amp;#39;s project',
-          description: "a short description",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/zhi_qin/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
