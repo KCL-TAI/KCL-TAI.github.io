@@ -1,0 +1,127 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header text-center">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.include_description %}
+      <h3 class="post-title text-center">{{ page.description }}</h3>
+    {% endif %}
+    <div class="post-description">
+      <p class="m-1">
+        <!-- authors list -->
+        {%- for author in page.authors -%}
+          {%- assign author_url = null -%}
+          {%- assign author_clean = author | regex_replace: '<sup>.+<\/sup>', '' | strip -%}
+          {%- for item in site.data.authors -%}
+            {%- if item[1].name contains author_clean -%}
+              {%- assign author_url = item[1].url -%}
+              {% break %}
+            {%- endif -%}
+          {%- endfor -%}
+          <span>
+            {%- if author_url -%}
+              <a href="{{ author_url }}" class="link-primary" target="_blank">{{ author }}</a>
+            {%- else -%}
+              {{ author }}
+            {%- endif -%}
+            {%- if forloop.last != true -%}
+              &nbsp;&nbsp;
+            {%- endif -%}
+          </span>
+        {% endfor %}
+        <br>
+
+        <!-- institutions list -->
+        {%- for institution in page.institutions -%}
+          <span><sup>{{ forloop.index }}</sup> {{ institution }}
+          {%- if forloop.last != true -%}
+            &nbsp;&nbsp;
+          {%- endif -%}
+          </span>
+        {%- endfor -%}
+        {%- if page.author_footnote -%}
+          <span><small><br><sup>*</sup>{{ page.author_footnote }}</small></span>
+        {%- endif -%}
+        <br>
+        <span>
+          {%- if page.venue_link -%}
+            <a href="{{ page.venue_link }}" class="link-primary" target="_blank">{{ page.venue }}</a>
+          {%- else -%}
+            {{ page.venue }}
+          {%- endif -%}
+        </span>
+      </p>
+
+      <!-- PDF link -->
+      {%- if page.main_pdf -%}
+        <span class="link-block">
+          <a href="{{ page.main_pdf}}" target="_blank"
+          class="btn btn-default rounded-pill p-2 px-3">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Paper</span>
+          </a>
+        </span>
+      {%- endif -%}
+
+      <!-- Supplementary PDF link -->
+      {%- if page.supp_pdf -%}
+        <span class="link-block">
+          <a href="{{ page.supp_pdf }}" target="_blank"
+          class="btn btn-default rounded-pill p-2 px-3">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Supplementary</span>
+          </a>
+        </span>
+      {%- endif -%}
+
+      <!-- Github link -->
+      {%- if page.github -%}
+        <span class="link-block">
+          <a href="{{ page.github }}" target="_blank"
+          class="btn btn-default rounded-pill p-2 px-3">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>Github</span>
+          </a>
+        </span>
+      {%- endif -%}
+
+      <!-- arxiv link -->
+      {%- if page.arxiv -%}
+        <span class="link-block">
+          <a href="{{ page.arxiv }}" target="_blank"
+          class="btn btn-default rounded-pill p-2 px-3">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+          </a>
+        </span>
+      {%- endif -%}
+    </div>
+  </header>
+  
+  {%- if page.abstract -%}
+    <hr>
+    <div class="w-75 ml-0 mr-0 mx-auto">
+      <h3 class="post-title text-center">Abstract</h3>
+      <div class="text-justify">
+        <p>{{ page.abstract }}</p>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <hr style="height:10px;" />
+  
+  <article>
+    {{ content }}
+  </article>
+
+</div>
