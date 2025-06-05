@@ -454,11 +454,11 @@ ninja.data = [{
           description: "Object Detection with Noisy Crowdsourced (Multi-Rater) Annotations",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bdc_eccv/";
-            },},{id: "projects-john-jo-39-s-project",
-          title: 'John-Jo&amp;#39;s project',
-          description: "a short description",
+            },},{id: "projects-differentiable-particle-filtering",
+          title: 'Differentiable Particle Filtering',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/john_jo/";
+              window.location.href = "/projects/diff_particle_filter/";
             },},{id: "projects-ai-assisted-dental-disease-detection-with-radiography",
           title: 'AI-assisted Dental Disease Detection with Radiography',
           description: "",
