@@ -15,7 +15,6 @@
 
 @article{Thengane2025,
   abbr={arXiv},
-  bibtex_show={true},
   title={Foundational Models for 3D Point Clouds: A Survey and Outlook},
   author={Thengane, Vishal and Zhu, Xiatian and Bouzerdoum, Salim and Lam Phung, Son and Li, Yunpeng},
   journal={arXiv preprint arXiv:2501.18594},
@@ -26,22 +25,32 @@
   selected={false}
 }
 
-@article{Brady2024b,
-  abbr={arXiv},
-  bibtex_show={true},
+@article{Brady2025,
+  abbr={SP},
   title={Differentiable Interacting Multiple Model Particle Filtering},
   author={Brady, John-Joseph and Luo, Yuhui and Wang, Wenwu and Elvira, V{\'\i}ctor and Li, Yunpeng},
-  journal={arXiv preprint arXiv:2410.00620},
-  year={2024},
+  journal={Signal Processing},
+  pdf={https://arxiv.org/pdf/2501.18594},
+  year={2025},
   abstract={We propose a sequential Monte Carlo algorithm for parameter learning when the studied model exhibits random discontinuous jumps in behaviour. To facilitate the learning of high dimensional parameter sets, such as those associated to neural networks, we adopt the emerging framework of differentiable particle filtering, wherein parameters are trained by gradient descent. We design a new differentiable interacting multiple model particle filter to be capable of learning the individual behavioural regimes and the model which controls the jumping simultaneously. In contrast to previous approaches, our algorithm allows control of the computational effort assigned per regime whilst using the probability of being in a given regime to guide sampling. Furthermore, we develop a new gradient estimator that has a lower variance than established approaches and remains fast to compute, for which we prove consistency. We establish new theoretical results of the presented algorithms and demonstrate superior numerical performance compared to the previous state-of-the-art algorithms.},
   code={https://github.com/John-JoB/DIMMPF},
-  pdf={https://arxiv.org/pdf/2410.00620},
+  selected={true}
+}
+
+@article{Liang2025,
+  abbr={IDJ},
+  title={AI-Driven Dental Caries Management Strategies: From Clinical Practice to Professional Education and Public Self Care},
+  author={Liang, Yutong and Li, Dongling and Deng, Dongmei and Chu, Chun Hung and Mei, May Lei and Li, Yunpeng and Yu, Na and He, Jinzhi and Cheng, Lei},
+  journal={International Dental Journal
+},
+  pdf={https://www.sciencedirect.com/science/article/pii/S0020653925001169},
+  year={2025},
+  abstract={Dental caries is one of the most prevalent chronic diseases among both children and adults, despite being largely preventable. This condition has significant negative impacts on human health and imposes a substantial economic burden. In recent years, scientists and dentists have increasingly started to utilize artificial intelligence (AI), particularly machine learning, to improve the efficiency of dental caries management. This study aims to provide an overview of the current knowledge about the AI-enabled approaches for dental caries management within the framework of personalized patient care. Generally, AI works as a promising tool that can be used by both dental professionals and patients. For dental professionals, it predicts the risk of dental caries by analyzing dental caries risk and protective factors, enabling to formulate personalized preventive measures. AI, especially those based on machine learning and deep learning, can also analyze images to detect signs of dental caries, assist in developing treatment plans, and help to make a risk assessment for pulp exposure during treatment. AI-powered tools can also be used to train dental students through simulations and virtual case studies, allowing them to practice and refine their clinical skills in a risk-free environment. Additionally, AI tracks brushing patterns and provides feedback to improve oral hygiene practices of the patients and the general population, thereby improving their understanding and compliance. This capability of AI can inform future research and the development of new strategies for dental caries management and control.},
   selected={false}
 }
 
 @article{Chen2024,
   abbr={TSP},
-  bibtex_show={true},
 	title={Normalizing Flow-based Differentiable Particle Filters},
 	author={Chen, Xiongjie and Li, Yunpeng},
   abstract={Recently, there has been a surge of interest in incorporating neural networks into particle filters, e.g. differentiable particle filters, to perform joint sequential state estimation and model learning for non-linear non-Gaussian state-space models in complex environments. Existing differentiable particle filters are mostly constructed with vanilla neural networks that do not allow density estimation. As a result, they are either restricted to a bootstrap particle filtering framework or employ predefined distribution families (e.g. Gaussian distributions), limiting their performance in more complex real-world scenarios. In this paper we present a differentiable particle filtering framework that uses (conditional) normalizing flows to build its dynamic model, proposal distribution, and measurement model. This not only enables valid probability densities but also allows the proposed method to adaptively learn these modules in a flexible way, without being restricted to predefined distribution families. We derive the theoretical properties of the proposed filters and evaluate the proposed normalizing flow-based differentiable particle filters’ performance through a series of numerical experiments.},
@@ -56,7 +65,6 @@
 
 @inproceedings{Tan2024,
   abbr={ECCV},
-  bibtex_show={true},
   title={Bayesian Detector Combination for Object Detection with Crowdsourced Annotations},
   author={Zhi Qin Tan and Olga Isupova and Gustavo Carneiro and Xiatian Zhu and Yunpeng Li},
   abstract={Acquiring fine-grained object detection annotations in unconstrained images is time-consuming, expensive, and prone to noise, especially in crowdsourcing scenarios. Most prior object detection methods assume accurate annotations; A few recent works have studied object detection with noisy crowdsourced annotations, with evaluation on distinct synthetic crowdsourced datasets of varying setups under artificial assumptions. To address these algorithmic limitations and evaluation inconsistency, we first propose a novel Bayesian Detector Combination (BDC) framework to more effectively train object detectors with noisy crowdsourced annotations, with the unique ability of automatically inferring the annotators’ label qualities. Unlike previous approaches, BDC is model-agnostic, requires no prior knowledge of the annotators’ skill level, and seamlessly integrates with existing object detection models. Due to the scarcity of real-world crowdsourced datasets, we introduce large synthetic datasets by simulating varying crowdsourcing scenarios. This allows consistent evaluation of different models at scale. Extensive experiments on both real and synthetic crowdsourced datasets show that BDC outperforms existing state-of-the-art methods, demonstrating its superiority in leveraging crowdsourced data for object detection. Our code and data are available at: https://github.com/zhiqin1998/bdc.},
@@ -71,7 +79,6 @@
 
 @inproceedings{brady2024a,
   abbr={FUSION},
-  bibtex_show={true},
   title={Regime Learning for Differentiable Particle Filters},
   author={Brady, John-Joseph and Luo, Yuhui and Wang, Wenwu and Elvira, V{\'\i}ctor and Li, Yunpeng},
   abstract={Differentiable particle filters are an emerging class of models that combine sequential Monte Carlo techniques with the flexibility of neural networks to perform state space inference. This paper concerns the case where the system may switch between a finite set of state-space models, i.e. regimes. No prior approaches effectively learn both the individual regimes and the switching process simultaneously. In this paper, we propose the neural network based regime learning differentiable particle filter (RLPF) to address this problem. We further design a training procedure for the RLPF and other related algorithms. We demonstrate competitive performance compared to the previous state-of-the-art algorithms on a pair of numerical experiments.},
@@ -85,7 +92,6 @@
 
 @inproceedings{banks2024,
   abbr={MIUA},
-  bibtex_show={true},
   title={H-FCBFormer: Hierarchical Fully Convolutional Branch Transformer for Occlusal Contact Segmentation with Articulating Paper},
   author={Banks, Ryan and Rovira-Lastra, Bernat and Martinez-Gomis, Jordi and Chaurasia, Akhilanand and Li, Yunpeng},
   abstract={Occlusal contacts are the locations at which the occluding surfaces of the maxilla and the mandible posterior teeth meet. Occlusal contact detection is a vital tool for restoring the loss of masticatory function and is a mandatory assessment in the field of dentistry, with particular importance in prosthodontics and restorative dentistry. The most common method for occlusal contact detection is articulating paper. However, this method can indicate significant medically false positive and medically false negative contact areas, leaving the identification of true occlusal indications to clinicians. To address this, we propose a multiclass Vision Transformer and Fully Convolutional Network ensemble semantic segmentation model with a combination hierarchical loss function, which we name as Hierarchical Fully Convolutional Branch Transformer (H-FCBFormer). We also propose a method of generating medically true positive semantic segmentation masks derived from expert annotated articulating paper masks and gold standard masks. The proposed model outperforms other machine learning methods evaluated at detecting medically true positive contacts and performs better than dentists in terms of accurately identifying object-wise occlusal contact areas while taking significantly less time to identify them. Code is available at https://github.com/Banksylel/H-FCBFormer.},
@@ -100,39 +106,12 @@
 
 @inproceedings{li2024,
   abbr={SAM},
-  bibtex_show={true},
   title={Revisiting semi-supervised training objectives for differentiable particle filters},
   author={Li, Jiaxi and Brady, John-Joseph and Chen, Xiongjie and Li, Yunpeng},
   abstract={Differentiable particle filters combine the flexibility of neural networks with the probabilistic nature of sequential Monte Carlo methods. However, traditional approaches rely on the availability of labelled data, i.e., the ground truth latent state information, which is often difficult to obtain in real-world applications. This paper compares the effectiveness of two semisupervised training objectives for differentiable particle filters. We present results in two simulated environments where labelled data are scarce},
   booktitle={IEEE Sensor Array and Multichannel Signal Processing Workshop (SAM)},
   year={2024},
   pdf={https://arxiv.org/pdf/2405.01251},
-  selected={false}
-}
-
-@article{chen2023,
-  abbr={FoDS},
-  bibtex_show={true},
-  title={An overview of differentiable particle filters for data-adaptive sequential Bayesian inference},
-  author={Chen, Xiongjie and Li, Yunpeng},
-  journal={Foundations of Data Science},
-  year={2023},
-  abstract={By approximating posterior distributions with weighted samples, particle filters (PFs) provide an efficient mechanism for solving non-linear sequential state estimation problems. While the effectiveness of particle filters has been recognised in various applications, their performance relies on the knowledge of dynamic models and measurement models, as well as the construction of effective proposal distributions. An emerging trend involves constructing components of particle filters using neural networks and optimising them by gradient descent, and such data-adaptive particle filtering approaches are often called differentiable particle filters. Due to the expressiveness of neural networks, differentiable particle filters are a promising computational tool for performing inference on sequential data in complex, high-dimensional tasks, such as vision-based robot localisation. In this paper, we review recent advances in differentiable particle filters and their applications. We place special emphasis on different design choices for key components of differentiable particle filters, including dynamic models, measurement models, proposal distributions, optimisation objectives, and differentiable resampling techniques.},
-  html={https://www.aimsciences.org/article/doi/10.3934/fods.2023014?viewType=HTML},
-  pdf={https://arxiv.org/pdf/2302.09639},
-  selected={true}
-}
-
-@inproceedings{li2023,
-  abbr={Asilomar},
-  bibtex_show={true},
-  title={Learning Differentiable Particle Filter on the Fly},
-  author={Li, Jiaxi and Chen, Xiongjie and Li, Yunpeng},
-  booktitle={Asilomar Conference on Signals, Systems, and Computers},
-  year={2023},
-  abstract={Differentiable particle filters are an emerging class of sequential Bayesian inference techniques that use neural networks to construct components in state space models. Existing approaches are mostly based on offline supervised training strategies. This leads to the delay of the model deployment and the obtained filters are susceptible to distribution shift of test-time data. In this paper, we propose an online learning framework for differentiable particle filters so that model parameters can be updated as data arrive. The technical constraint is that there is no known ground truth state information in the online inference setting. We address this by adopting an unsupervised loss to construct the online model updating procedure, which involves a sequence of filtering operations for online maximum likelihood-based parameter estimation. We empirically evaluate the effectiveness of the proposed method, and compare it with supervised learning methods in simulation settings including a multivariate linear Gaussian state-space model and a simulated object tracking experiment.},
-  html={https://ieeexplore.ieee.org/abstract/document/10476913},
-  pdf={https://arxiv.org/pdf/2312.05955},
   selected={false}
 }
 
