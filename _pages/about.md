@@ -28,7 +28,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Welcome to the Translational AI Research (KCL TAIR) Lab at King's College London! We are part of the [Centre for Oral, Clinical & Translational Sciences](https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences) in the [Faculty of Dentistry, Oral & Craniofacial Sciences](https://www.kcl.ac.uk/dentistry). Our research interests lie in the development of fundamental methodologies in trustworthy AI, statistical signal processing, and multimodal machine learning, as well as translational work to address real-world, interdisciplinary applications in healthcare and environmental sciences.
+Welcome to the Translational AI Research (TAIR) Lab at King's College London! We are part of the [Centre for Oral, Clinical & Translational Sciences](https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences) in the [Faculty of Dentistry, Oral & Craniofacial Sciences](https://www.kcl.ac.uk/dentistry). Our research interests lie in the development of fundamental methodologies in trustworthy AI, statistical signal processing, and multimodal machine learning, as well as translational work to address real-world, interdisciplinary applications in healthcare and environmental sciences.
 
 [Talk to us](mailto:yunpeng.li@kcl.ac.uk) or [join our group](/openings/) if you are interested in these topics or our work.
 
