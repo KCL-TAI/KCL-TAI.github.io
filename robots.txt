@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://KCL-TAI.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://TAIR-lab.github.io/sitemap.xml
